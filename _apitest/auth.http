@@ -1,0 +1,24 @@
+GET http://localhost:8000
+
+### Regist Data
+POST http://localhost:8000/registration
+Content-Type: application/json
+
+{
+    "username":"Ardisca",
+    "email":"ardisca99@admin.com",
+    "password":"123"
+
+}
+
+### Login Data
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email":"ardisca99@admin.com",
+    "password":"123"
+}
+
+### Resource
+GET http://localhost:8000/resource
